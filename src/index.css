@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .text-shadow {
+    /* text-shadow: 0px 3px 0px #87CEEB,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1); */
+
+             text-shadow: 
+             0 1px 0 #34b2e4, 
+             0 2px 0 #34b2e4,
+             0 3px 0 #34b2e4,
+             0 4px 0 #34b2e4,
+             0 5px 0 #34b2e4,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+
+  }
+  .text-shadoww {
+    /* text-shadow: 0px 3px 0px #87CEEB,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1); */
+
+             text-shadow: 
+  0 1px 0 #34b2e4, 
+  0 2px 0 #34b2e4,
+  0 3px 0 #34b2e4,
+  0 4px 0 #34b2e4,
+  0 5px 0 #34b2e4,
+  0 6px 1px rgba(255, 225, 225, 0.1),
+  0 0 5px rgba(255,255,255,.1),
+  0 1px 3px rgba(255,255,255,.3),
+  0 3px 5px rgba(230, 213, 213, 0.2),
+  0 5px 10px rgba(255,255,255,.25),
+  0 10px 10px rgba(255,255,255,.2),
+  0 20px 20px rgba(255,255,255,.15);
+
+  }
+  
+  .text-shadows {
+    /* text-shadow: 0px 3px 0px #87CEEB,
+             0px 14px 10px rgba(0,0,0,0.15),
+             0px 24px 2px rgba(0,0,0,0.1),
+             0px 34px 30px rgba(0,0,0,0.1); */
+
+             text-shadow: 
+  0 1px 0 #34b2e4, 
+  0 2px 0 #34b2e4,
+  0 3px 0 #34b2e4,
+  0 4px 0 #34b2e4,
+  0 5px 0 #34b2e4,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
+
+  }
+
+  .footer-h3{
+        
+  }
+  .border-gradient-black-blue {
+    background: linear-gradient(to right, black 50%, blue 50%);
+  }
+   .background{
+    background-color: rgba(253, 246, 246, 0.2)
+   }
