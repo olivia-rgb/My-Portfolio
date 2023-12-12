@@ -9,8 +9,8 @@ function Header() {
   return (
     <div className='w-full mx-auto bg-blue-500 h-screen bg-cover bg-center font-sans transition duration-500' style={{ backgroundImage: `url(${bg})` }}>
       <Navbar />
-      <div className='mt-3 md:mt-0 md:flex gap-5 h-screen justify-center items-center w-8/12 mx-auto'>
-        <div className='text-white w-full md:w-6/12 z-10'>
+      <div className='mt-5 md:mt-0 md:flex gap-5 h-screen justify-center items-center w-8/12 mx-auto'>
+        <div className='text-white w-full md:w-6/12 z-10 '> {/* Add top margin on small screens */}
           <h1 className='text-4xl font-extrabold'>👋Hi,<br /> I'm <span className='text-shadow'>Olivia!</span><br /><Carousel /></h1>
           <p className='hidden md:block'> Front end Developer/ Python/ Data Science Expert✨ <br /> I design and code beautifully 🚀 unique contents 😍. <br />I am in so much love with what I do😘</p>
           <Link to="/contact">
