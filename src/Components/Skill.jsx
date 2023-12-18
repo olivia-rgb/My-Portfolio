@@ -98,7 +98,7 @@ function Skill() {
           ))}
         </Slider>
       <div className=' pt-5 border-b border-blue-500'>
-      <h1 className='text-4xl  font-extrabold text-black text-shadows mb-3 text-center  text-shadows'>MY PROGRAMMING SKILLS</h1>
+      <h1 className='text-4xl  font-extrabold text-black mb-3 text-center '>MY PROGRAMMING SKILLS</h1>
       <div className='my-8 text-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-3'>
         {programmingSkills.map((item) => (
           <div key={item.id} className='text-center p-4 shadow-md'>

@@ -29,7 +29,7 @@ const Service = () => {
 
     <div className='w-full mx-auto  font-sans transition duration-500  ' >
           <div className=" w-full md:w-8/12 mx-auto text-center">
-            <h1 className='text-5xl font-bold text-shadows text-center my-5 text-black'>WHAT I CAN OFFER YOU</h1>
+            <h1 className='text-5xl font-bold text-center my-5 text-black'>WHAT I CAN OFFER YOU</h1>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (

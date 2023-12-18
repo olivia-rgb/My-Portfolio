@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bg from '../assets/blink.gif';
-import mypicture from '../assets/rejoicing.jpg';
+import mypicture from '../assets/picture4.jpg';
 import Navbar from './Navbar';
 import Carousel from './Carousel';
 
@@ -20,7 +20,7 @@ function Header() {
           </Link>
         </div>
         <div className='w-full md:w-8/12 mt-5 md:mt-0'>
-          <img className='w-full md:w-[900px] h-[300px] border-blue-500 border-8' src={mypicture} alt='' />
+          <img className='w-full md:w-[900px] h-[300px] object-cover border-blue-500 border-8' src={mypicture} alt='' />
         </div>
       </div>
     </div>
